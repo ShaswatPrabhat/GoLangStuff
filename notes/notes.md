@@ -29,4 +29,9 @@
 * `init` functions within each file can contain initialization statements for the go file
 * Initialization works from bottom up, `main` package is the last to be initialized
 * number of set bits in a value is called its `population count`
+* Scope is a region of code where a use of a variable refers to that declaration
+* Lifetime of a variable is the range of time when the variable can be referred by other programs
+* Scope is a compile time property, Lifetime is a run time property
+* The Compiler when it encounters reference to a variable starts from the nearest scope first and moves to universal scope
+* Hence, variables can be shadowed
 * 
